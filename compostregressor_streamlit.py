@@ -1,7 +1,6 @@
 import streamlit as st
 import joblib
 import numpy as np
-from PIL import Image
 
 # Load the trained model
 model = joblib.load('dt_regressor.pkl')
